@@ -1,7 +1,4 @@
-library user;
-
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
-}
+// packages/user/lib/user.dart
+export 'src/routes/user_routes.dart';
+export 'src/pages/profile_page.dart';
+export 'src/pages/settings_page.dart';

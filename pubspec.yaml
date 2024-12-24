@@ -26,6 +26,8 @@ dependencies:
   cupertino_icons: ^1.0.2
   core:
     path: packages/core
+  router:
+    path: packages/router
   resources:
     path: packages/resources
   services:

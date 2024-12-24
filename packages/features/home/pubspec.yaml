@@ -1,7 +1,6 @@
 name: home
 description: A new Flutter package project.
 version: 0.0.1
-homepage:
 
 environment:
   sdk: '>=2.18.4 <3.0.0'
@@ -10,7 +9,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
+  core:
+    path: ../../core
+  services:
+    path: ../../services
+  router:
+    path: ../../router
 dev_dependencies:
   flutter_test:
     sdk: flutter
